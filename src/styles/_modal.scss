@@ -1,0 +1,38 @@
+.modal {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow-y: auto;
+    display: none;
+
+    .modal-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        position: relative;
+        height: 100%;
+    }
+    .disable-body-scroll {
+        overflow: hidden;
+    }
+    .fi-xnluxl-times {
+        color: #E2B616;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px;
+        cursor: pointer;
+        transition: color 300ms ease-in-out;
+    }
+    .fi-xnluxl-times:hover {
+        color: white;
+    }
+}
+.open-modal {
+    display: block;
+}

@@ -1,0 +1,30 @@
+footer {
+    background-color: #171717;
+    margin-top: 50px;
+}
+.footer {
+    padding: 20px;
+    p {
+        color: darkgray;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    &__socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        li {
+            list-style: none;
+            font-size: 10px;
+            color: white;
+            margin: 20px;
+            cursor: pointer;
+            &:hover {
+                color: darkgray;
+            }
+        }
+    }
+}
+
